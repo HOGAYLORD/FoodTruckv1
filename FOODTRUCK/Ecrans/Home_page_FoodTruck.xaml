@@ -1,0 +1,297 @@
+﻿<Window x:Class="FOODTRUCK.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FOODTRUCK"
+        mc:Ignorable="d"
+        Title="Home_page_FoodTruck" Width="800" Height="450">
+    <Grid
+        Margin="5,5,5,5"
+        MinWidth="700"
+        
+        >
+        <!--création de ma grille 6 colonnes et 6 lignes-->
+        <!-- 6 colonnes-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <!-- 5 lignes-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!-- image of Header max heiht 40 px ! -->
+        <Image
+            Grid.Column="0"
+            Grid.Row="0"
+            Source="C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\Images\flaxkale.jpg" />
+
+        <!-- menu of Header : accueil, Calatalogue, Contact, Connexion/inscription-->
+
+        <!-- menu items accueil-->
+
+        <!-- buton catalogue-->
+        <Button 
+            Grid.Column="2"
+            Background="Gray"
+            Height="30"
+            Margin="5, 5"
+            >
+            Catalogue
+        </Button>
+        <!-- Contact -->
+        <Button 
+            Grid.Column="3"
+            Margin="5, 5"
+            Height="30"
+            Background="White">
+            Contact
+        </Button>
+        <!-- stack panel connexion et inscription-->
+
+        <!-- stack panel-->
+        <StackPanel
+            Orientation="Horizontal"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Grid.Column="4"
+            Grid.ColumnSpan="2" 
+            >
+
+            <!-- connexion-->
+            <Button Margin="5"                
+                >
+                Connexion /
+            </Button>
+
+            <!-- inscription-->
+            <Button
+                Margin="5"
+                >
+
+                Inscription
+            </Button>
+
+        </StackPanel>
+
+        <!-- slider !!!!-->
+        <Image
+            Grid.Column="0"
+            Grid.ColumnSpan="6"
+            Grid.Row="1"
+            Grid.RowSpan="2"
+            VerticalAlignment="Center"
+            Source="C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\Images\slider_comp.jpg" Stretch="UniformToFill"
+            >
+        </Image>
+
+        <!-- slider title-->
+        <StackPanel    
+    
+            Orientation="Vertical"
+            Grid.Row="2"
+            Grid.Column="1"
+            Grid.ColumnSpan="6"
+            >
+
+
+            <TextBlock
+            Grid.ColumnSpan="6" Margin="5,5,0,0"
+            FontSize="20"            
+            >
+                TITLE
+            </TextBlock>
+
+            <TextBlock
+            Margin="10,10,0,0"
+            FontSize="10" TextWrapping="Wrap"
+            
+            >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantiu ut labore et dima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </TextBlock>
+        </StackPanel>
+
+        
+
+        <!-- nos meilleurs ventes-->
+        <TextBlock
+            Grid.Row="3"
+            Grid.ColumnSpan="6"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            FontWeight="Bold"
+            FontSize="20"
+            >
+            Nos meilleurs ventes
+        </TextBlock>
+
+        <!-- vignettes produits 1-->
+
+        <!-- image 1-->
+
+        <Image
+            Grid.Row="4"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Height="100"
+            Width="150"
+            HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+            Source="C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\Images\vignettes.png"
+            >
+        </Image>
+
+        <!-- titre image 1-->
+
+
+        <TextBlock
+            Grid.Row="5"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Padding="45,5,0,0"
+            FontWeight="Bold"
+            >
+            Ratatouille
+        </TextBlock>
+
+        <!-- prix 1-->
+        <TextBlock
+            Grid.Row="6"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Padding="45,5,0,0"
+            >
+           2,50 €
+        </TextBlock>
+
+        <!-- stars 1 !-->
+        <Image
+            Grid.Row="6"
+            Grid.Column="1"
+            HorizontalAlignment="Right"
+            Source="C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\Images\stars.png"
+            Width="20"
+            Height="20"
+            Margin="2, 2, 2, 2"
+            >
+
+        </Image>
+
+        <!-- vignette produit 2 -->
+        <!-- image 2-->
+
+        <Image
+            Grid.Row="4"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Height="100"
+            Width="150"
+            HorizontalAlignment="Center"
+                VerticalAlignment="Stretch"
+            Source="C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\Images\vignettes.png"
+            >
+        </Image>
+
+        <!-- titre image 2-->
+
+
+        <TextBlock
+            Grid.Row="5"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Padding="45,5,0,0"
+            FontWeight="Bold"
+            >
+            Ratatouille
+        </TextBlock>
+
+        <!-- prix 2-->
+        <TextBlock
+            Grid.Row="6"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Padding="45,5,0,0"
+            >
+           2,50 €
+        </TextBlock>
+
+        <!-- stars 2 !-->
+        <Image
+            Grid.Row="6"
+            Grid.Column="3"
+            HorizontalAlignment="Right"
+            Source="C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\Images\stars.png"
+            Width="20"
+            Height="20"
+            Margin="2, 2, 2, 2"
+            >
+        </Image>
+
+        <!-- vignette image 3 -->
+        <!-- vignettes produits 3-->
+
+        <!-- image 3-->
+
+        <Image
+            Grid.Row="4"
+            Grid.Column="4"
+            Grid.ColumnSpan="2"
+            Height="100"
+            Width="150"
+            HorizontalAlignment="Center"
+                VerticalAlignment="Stretch"
+            Source="C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\Images\vignettes.png"
+            >
+        </Image>
+
+        <!-- titre image 3-->
+
+
+        <TextBlock
+            Grid.Row="5"
+            Grid.Column="4"
+            Grid.ColumnSpan="2"
+            Padding="45,5,0,0"
+            FontWeight="Bold"
+            >
+            Ratatouille
+        </TextBlock>
+
+        <!-- prix 3-->
+        <TextBlock
+            Grid.Row="6"
+            Grid.Column="4"
+            Grid.ColumnSpan="2"
+            Padding="45,5,0,0"
+            >
+           2,50 €
+        </TextBlock>
+
+        <!-- stars 3 !-->
+        <Image
+            Grid.Row="6"
+            Grid.Column="5"
+            HorizontalAlignment="Right"
+            Source="C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\Images\stars.png"
+            Width="20"
+            Height="20"
+            Margin="2, 2, 2, 2"
+            >
+
+        </Image>
+
+    </Grid>
+</Window>

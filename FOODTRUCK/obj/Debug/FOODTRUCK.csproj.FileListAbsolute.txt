@@ -1,0 +1,17 @@
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\bin\Debug\FOODTRUCK.exe.config
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\bin\Debug\FOODTRUCK.exe
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\bin\Debug\FOODTRUCK.pdb
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\FOODTRUCK.csprojAssemblyReference.cache
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\Home_page_FoodTruck.g.cs
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\Slider.g.cs
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\App.g.cs
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\FOODTRUCK_MarkupCompile.cache
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\FOODTRUCK_MarkupCompile.lref
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\Home_page_FoodTruck.baml
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\Slider.baml
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\FOODTRUCK.g.resources
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\FOODTRUCK.Properties.Resources.resources
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\FOODTRUCK.csproj.GenerateResource.cache
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\FOODTRUCK.csproj.CoreCompileInputs.cache
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\FOODTRUCK.exe
+C:\Users\H-O\source\repos\FoodTruck\FOODTRUCK\obj\Debug\FOODTRUCK.pdb
